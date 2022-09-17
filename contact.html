@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Rakib's World</title>
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
+    <!-- daisy ui and tailwinds  -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.28.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/d09449a7ab.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="font-family: 'Montserrat', sans-serif;">
+    <!-- Header part Start  -->
+    <header class="container mx-auto mt-5">
+        <section id="menubar">
+            <div class="navbar bg-neutral text-neutral-content px-5 rounded-lg">
+                <div class="flex-1">
+                    <a class="text-3xl font-bold text-blue-200" href="index.html"
+                        style="font-family: 'Oswald', sans-serif;">
+                        Md Rakibul Hasan
+                    </a>
+                </div>
+                <div class="flex-none gap-2">
+                    <ul class="text-xl font-bold hidden md:flex lg:flex gap-4">
+                        <li><a href="resume.html" class="hover:text-blue-400">Resume</a></li>
+                        <li><a href="projects.html" class="hover:text-blue-400">Projects</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-400">Contact</a></li>
+
+                    </ul>
+                    <div class="dropdown dropdown-end flex md:hidden lg:hidden">
+                        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                            <div class="w-10 rounded-full">
+                                <i class="fa-solid fa-bars text-3xl"></i>
+                            </div>
+                        </label>
+                        <ul tabindex="0"
+                            class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-neutral text-neutral-content rounded-box w-52">
+                            <li><a href="resume.html">Resume</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </header>
+    <!-- Main Part Start  -->
+
+    <!-- Main Part End  -->
+    <main class="container mx-auto">
+        <section id="contact-details" class="my-[100px] px-5 md:px-12 lg:px-12">
+
+            <!-- Contact Title Part Start  -->
+            <h1 class="text-5xl font-bold mb-[80px] text-center">
+                Contact
+            </h1>
+            <!-- Contact Title Part End  -->
+            <!-- Contact Details Part Start  -->
+            <div class="flex flex-col md:flex-row lg:flex-row gap-5">
+                <div class="contact-form w-1/2">
+                    <div>
+                        <!-- component -->
+                        <form class="w-full max-w-lg">
+                            <div class="flex flex-wrap -mx-3 mb-6">
+                                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                        for="grid-first-name">
+                                        First Name
+                                    </label>
+                                    <input
+                                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                                        id="grid-first-name" type="text" placeholder="Your First Name">
+                                    <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+                                </div>
+                                <div class="w-full md:w-1/2 px-3">
+                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                        for="grid-last-name">
+                                        Last Name
+                                    </label>
+                                    <input
+                                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                        id="grid-last-name" type="text" placeholder="Your Last Name">
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap -mx-3 mb-6">
+                                <div class="w-full px-3">
+                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                        for="grid-password">
+                                        E-mail
+                                    </label>
+                                    <input
+                                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                        id="email" type="email">
+                                    <p class="text-gray-600 text-xs italic">Some tips - as long as needed</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap -mx-3 mb-6">
+                                <div class="w-full px-3">
+                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                        for="grid-password">
+                                        Message
+                                    </label>
+                                    <textarea
+                                        class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                                        id="message"></textarea>
+
+                                </div>
+                            </div>
+                            <div class="md:flex md:items-center">
+                                <div class="md:w-1/3">
+                                    <a href="mailto:mdrakibulh71@gmail.com"
+                                        class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                                        type="button">
+                                        Send
+                                    </a>
+                                </div>
+                                <div class="md:w-2/3"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-details w-1/2 flex flex-col gap-5">
+                    <div>
+                        <div class="add-title">
+                            <span class="text-2xl font-bold mr-2">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                            <span class="text-2xl font-bold">
+                                Address
+                            </span>
+                        </div>
+                        <address class="add-details">
+                            <p>305,Monipurghat, Batrish</p>
+                            <p>Kishoreganj</p>
+                            <p>Dhaka,Bangladesh</p>
+                        </address>
+                    </div>
+                    <div>
+                        <div class="phone-title">
+                            <span class="text-2xl font-bold mr-2">
+                                <i class="fa-solid fa-phone"></i>
+                            </span>
+                            <span class="text-2xl font-bold">
+                                Phone
+                            </span>
+                        </div>
+                        <address class="add-details">
+                            <p>01684790860</p>
+                            <p>01701412567</p>
+                            <p>01517849842</p>
+                        </address>
+                    </div>
+                    <div>
+                        <div class="web-title">
+                            <span class="text-2xl font-bold mr-2">
+                                <i class="fa-solid fa-earth-americas"></i>
+                            </span>
+                            <span class="text-2xl font-bold">
+                                Website
+                            </span>
+                        </div>
+                        <address class="add-details">
+                            <a href="https://rakib01754.github.io/portfolio-website/" class="font-bold mt-5">
+                                <span><i class="fa-solid fa-arrow-right"></i></span>Click For Visit In Bangla
+                            </a>
+
+                        </address>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div id="h-border">
+            <hr class="border-2 border-slate  my-5">
+        </div>
+    </main>
+    <!-- Footer Part Start  -->
+    <footer class="flex flex-col md:flex-row lg:flex-row justify-between container mx-auto px-3 mb-5 gap-4">
+        <div>
+            <h2 class="text-2xl font-bold mb-2">Phone</h2>
+            <p>01684-790860</p>
+        </div>
+        <div>
+            <h2 class="text-2xl font-bold  mb-2">Email</h2>
+            <p>rakibul.freelancer567@gmail.com</p>
+        </div>
+        <div>
+            <h2 class="text-2xl font-bold  mb-2">Follow Me</h2>
+            <span class="text-4xl mr-3"><a href="https://www.facebook.com/rakib.3302/" target="_blank"><i
+                        class="fa-brands fa-facebook text-blue-400"></i></a></span>
+            <span class="text-4xl">
+                <a href="https://www.linkedin.com/in/rakib3302/" target="_blank"><i
+                        class="fa-brands fa-linkedin text-blue-400"></i></a>
+
+            </span>
+        </div>
+        <div>
+            <h2 class="text-2xl font-bold  mb-2">Owner</h2>
+            <p>2022-2023 By Md Rakibul Hasan</p>
+        </div>
+
+    </footer>
+    <!-- Footer Part End  -->
+
+
+</body>
+
+<!-- Header Part End  -->
