@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakib's World</title>
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
+    <!-- daisy ui and tailwinds  -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.28.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/d09449a7ab.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="font-family: 'Montserrat', sans-serif;">
+    <header class="container mx-auto mt-5">
+        <section id="menubar">
+            <div class="navbar bg-neutral text-neutral-content px-5 rounded-lg">
+                <div class="flex-1">
+                    <a class="text-3xl font-bold text-blue-200" style="font-family: 'Oswald', sans-serif;">
+                        Md Rakibul Hasan
+                    </a>
+                </div>
+                <div class="flex-none gap-2">
+                    <ul class="text-xl font-bold hidden md:flex lg:flex gap-4">
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                    <div class="dropdown dropdown-end flex md:hidden lg:hidden">
+                        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                            <div class="w-10 rounded-full">
+                                <i class="fa-solid fa-bars text-3xl"></i>
+                            </div>
+                        </label>
+                        <ul tabindex="0"
+                            class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-neutral text-neutral-content rounded-box w-52">
+                            <li><a href="#">Resume</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </header>
+    <main>
+        <section id="short-intro" class="container mx-auto p-8 flex flex-col md:flex-row lg:flex-row">
+            <img src="images/rakib-bg.png" alt="" class="w-1/1 md:w-1/2 lg:1/2">
+            <div>
+                <div class="flex flex-col gap-6 py-12 px-5">
+                    <h1 class="text-8xl font-bold">
+                        Hello
+                    </h1>
+                    <h2 class="text-2xl font-bold">A Bit About Me</h2>
+                    <p>
+                        I'm a Front-End/Mern-Stack Web Developer. I have 3+ Years On This Field. I have Done Already
+                        Many
+                        Projects For My Client. I Love To Coading. It's My Passion. I Always Want To Try To Give The
+                        Best
+                        Effort When I Do Any Projects For My Client Or My Company.
+                    </p>
+                </div>
+                <div class="flex gap-2">
+                    <a class="text-white rounded-full p-5 bg-blue-400 font-bold hover:bg-sky-700" href="#">Resume</a>
+                    <a class="text-white rounded-full p-5 bg-orange-400 font-bold hover:bg-sky-700"
+                        href="#">Projects</a>
+                    <a class="text-white rounded-full p-5 bg-violet-400 font-bold hover:bg-sky-700" href="#">Contact</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
