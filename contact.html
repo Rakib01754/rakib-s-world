@@ -18,9 +18,9 @@
     <script src="https://kit.fontawesome.com/d09449a7ab.js" crossorigin="anonymous"></script>
 </head>
 
-<body style="font-family: 'Montserrat', sans-serif;">
+<body style="font-family: 'Montserrat', sans-serif;" class="max-w-[1440px] mx-auto text-black bg-gray-200">
     <!-- Header part Start  -->
-    <header class="container mx-auto mt-5">
+    <header class="container mx-auto">
         <section id="menubar">
             <div class="navbar bg-neutral text-neutral-content px-5 rounded-lg">
                 <div class="flex-1">
@@ -62,7 +62,7 @@
         <section id="contact-details" class="my-[100px] px-5 md:px-12 lg:px-12">
 
             <!-- Contact Title Part Start  -->
-            <h1 class="text-5xl font-bold mb-[80px] text-center">
+            <h1 class="text-5xl font-bold mb-[80px]">
                 Contact
             </h1>
             <!-- Contact Title Part End  -->
@@ -79,7 +79,7 @@
                                         First Name
                                     </label>
                                     <input
-                                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                                        class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded border-black py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                         id="grid-first-name" type="text" placeholder="Your First Name">
                                     <p class="text-red-500 text-xs italic">Please fill out this field.</p>
                                 </div>
@@ -89,7 +89,7 @@
                                         Last Name
                                     </label>
                                     <input
-                                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-black rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                         id="grid-last-name" type="text" placeholder="Your Last Name">
                                 </div>
                             </div>
@@ -100,7 +100,7 @@
                                         E-mail
                                     </label>
                                     <input
-                                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-black rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                         id="email" type="email">
                                     <p class="text-gray-600 text-xs italic">Some tips - as long as needed</p>
                                 </div>
@@ -112,7 +112,7 @@
                                         Message
                                     </label>
                                     <textarea
-                                        class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                                        class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-black rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                                         id="message"></textarea>
 
                                 </div>
@@ -182,32 +182,37 @@
             </div>
         </section>
         <div id="h-border">
-            <hr class="border-2 border-slate  my-5">
+            <hr class="border-2 border-black  my-5">
         </div>
     </main>
     <!-- Footer Part Start  -->
-    <footer class="flex flex-col md:flex-row lg:flex-row justify-between container mx-auto px-3 mb-5 gap-4">
+    <footer class="flex flex-col md:flex-row lg:flex-row justify-between container mx-auto px-3 gap-4">
         <div>
-            <h2 class="text-2xl font-bold mb-2">Phone</h2>
+            <span class="text-2xl font-bold mr-2"><i class=" fa-solid fa-phone"></i></span><span
+                class="text-2xl font-bold mb-2">Phone</span>
             <p>01684-790860</p>
         </div>
         <div>
-            <h2 class="text-2xl font-bold  mb-2">Email</h2>
+            <span class="text-2xl font-bold mr-2"><i class="fa-solid fa-envelope"></i></span> <span
+                class="text-2xl font-bold  mb-2">Email</span>
             <p>rakibul.freelancer567@gmail.com</p>
         </div>
         <div>
-            <h2 class="text-2xl font-bold  mb-2">Follow Me</h2>
-            <span class="text-4xl mr-3"><a href="https://www.facebook.com/rakib.3302/" target="_blank"><i
-                        class="fa-brands fa-facebook text-blue-400"></i></a></span>
-            <span class="text-4xl">
-                <a href="https://www.linkedin.com/in/rakib3302/" target="_blank"><i
-                        class="fa-brands fa-linkedin text-blue-400"></i></a>
+            <span class="text-2xl font-bold mr-2"><i class=" fa-solid fa-arrow-down"></i></span><span
+                class="text-2xl font-bold  mb-2">Follow Me</span>
+            <div>
+                <span class="text-4xl mr-3"><a href="https://www.facebook.com/rakib.3302/" target="_blank"><i
+                            class="fa-brands fa-facebook text-blue-400"></i></a></span>
+                <span class="text-4xl">
+                    <a href="https://www.linkedin.com/in/rakib3302/" target="_blank"><i
+                            class="fa-brands fa-linkedin text-blue-400"></i></a>
 
-            </span>
+                </span>
+            </div>
         </div>
         <div>
             <h2 class="text-2xl font-bold  mb-2">Owner</h2>
-            <p>2022-2023 By Md Rakibul Hasan</p>
+            <p class="font-bold">&copy Md Rakibul Hasan</p>
         </div>
 
     </footer>
